@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .w3-container {
+            padding: 20px;
+        }
+
+        .w3-left {
+            margin-right: 20px;
+        }
+
+        .w3-right a {
+            margin-left: 10px;
+        }
+
+        .w3-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .w3-fifth {
+            padding: 20px;
+            box-sizing: border-box;
+            width: 20%;
+        }
+
+        .w3-fifth ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .w3-fifth li {
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+
+        .w3-fourfifth {
+            padding: 20px;
+            box-sizing: border-box;
+            width: 80%;
+        }
+
+        .movie-box {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .movie-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .movie-info {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .w3-footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .w3-footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .w3-footer a:hover {
+            opacity: 0.6;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="w3-container w3-teal">
+        <img src="logo2.jpg" alt="Logo" class="w3-left" height="25px" width="25px">
+        <div class="w3-right">
+            <a href="#about">Hakkında</a>
+            <a href="#contact">İletişim</a>
+        </div>
+    </div>
+
+    <div class="w3-row">
+        <div class="w3-fifth">
+            <h2>Kategoriler</h2>
+            <ul class="w3-ul">
+                <li>Aksiyon</li>
+                <li>Komedi</li>
+                <li>Drama</li>
+                <li>Bilim Kurgu</li>
+                <li>Korku</li>
+                <li>Romantik</li>
+            </ul>
+        </div>
+        <div class="w3-fourfifth">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/i6rP-1z2RqY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="movie-info">
+                <h2>Big Buck Bunny</h2>
+                <p><strong>Yönetmen:</strong> Sacha Goedegebure</p>
+                <p><strong>Oyuncular:</strong> Animasyon</p>
+                <p><strong>Süre:</strong> 9 dakika 56 saniye</p>
+                <p><strong>Açıklama:</strong> Big Buck Bunny, Blender Vakfı tarafından oluşturulan ve özgür ve açık kaynaklı bir animasyon filmidir. Film, tamamen Blender 3D yazılımı kullanılarak oluşturulmuş ve dünya çapında popülerlik kazanmıştır.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row">
+        <div class="w3-container w3-fourfifth">
+            <div class="w3-row">
+                <div class="w3-third">
+                    <div class="movie-box">
+                        <img src="poster1.jpg" alt="Film 1">
+                        <div class="movie-info">
+                            <p><strong>Yıl:</strong> 2023</p>
+                            <p><strong>Açıklama:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p><strong>Kategori:</strong> Aksiyon</p>
+                        </div>
+                        <button class="w3-button">Daha Fazla</button>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="movie-box">
+                        <img src="poster2.jpg" alt="Film 2">
+                        <div class="movie-info">
+                            <p><strong>Yıl:</strong> 2021</p>
+                            <p><strong>Açıklama:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p><strong>Kategori:</strong> Komedi</p>
+                        </div>
+                        <button class="w3-button">Daha Fazla</button>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="movie-box">
+                        <img src="poster3.jpg" alt="Film 3">
+                        <div class="movie-info">
+                            <p><strong>Yıl:</strong> 2020</p>
+                            <p><strong>Açıklama:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p><strong>Kategori:</strong> Drama</p>
+                        </div>
+                        <button class="w3-button">Daha Fazla</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-footer">
+        <a href="#" class="w3-hover-opacity"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="w3-hover-opacity"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="w3-hover-opacity"><i class="fab fa-instagram"></i></a>
+    </div>
+
+</body>
+</html>
+

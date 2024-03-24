@@ -1,0 +1,41 @@
+Prompt 1 
+Filmlerle ilgili bir web sitesi tasarlıyorum ve bu sitenin semantic, responsive olmasını ve w3school css ve javascript kullanmasını istiyorum. 
+headerın sol tarafında logo, sağ tarafında ise Hakkında, İletişim bölümü bulunmaktadır. 
+Gövdenin sol tarafında kategoriler, 
+sağ kısımda ise portföy galerisi yer alacak. 
+Portföy galerisinde resim, açıklama, yıl ve daha fazlası düğmesi bulunur. 3 adet portföy kartı bulunmaktadır. 
+alt bilgi kısmında twitter, facebook instagram linki ve favicon olacak.
+
+Prompt 2
+instagram, facebook ve twitter linklerini favicon olacak şekilde ekle.
+
+Prompt 3
+şimdi 5-6 adet film kategorisi ekle.
+
+Prompt 4
+galeri kısmında görsel, yıl, açıklama ve kategori içeren bir kutu istiyorum.
+
+Prompt 5
+kutucuklara border ekle.
+
+Prompt 6
+rounded border ekle.
+
+Prompt 7
+her şey çok güzel. şimdi portfolio kısmının üstüne aynı row içinde ortalı bi şekilde video player ekleyeim. 
+altında bilgi olarak filmin adı, yönetmeni, oyuncuları, filmin süresi ve filmin açıklaması yazsın.
+
+Prompt 8
+video player kısmı çok güzel. ancak category kısmı silinmiş. 
+aynı row içinde 5te1 categories geri kalan 5te4ünde üst kısımda video player alt kısımda portfolio olsun.
+
+Prompt 9
+video playerın kendisi çok büyük olmuş. 
+video playerı orantılı yapalım ve altına bilgi olarak filmin adı, yönetmeni, oyuncuları, filmin süresi ve filmin açıklaması yazsın.
+
+Prompt 10
+portfolio kısmını da bu rowun altına ekle.
+
+Prompt 11
+video playerın altına bilglileri ekle. Gallery kısmını ise başka bir row aç ve oraya ekle.
+harika. şimdi video player'a youtube'dan herhangi bir filmi koy ve film ile ilgili bilgileri buna göre doldur.
